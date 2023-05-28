@@ -1,6 +1,6 @@
 # Quiz-API
 API Endpoints:
-POST /quizzes - to create a new quiz
+- POST /quizzes - to create a new quiz
 ### http://127.0.0.1:8000/quizzes/
 #### example: (body) {
     "question" : "What is the capital of India?",
@@ -10,13 +10,13 @@ POST /quizzes - to create a new quiz
     "end_date" : "30/5/2023 00:40:33"
 }
 
-GET /quizzes/active - to retrieve the active quiz (the quiz that is currently within its start and end time) 
+- GET /quizzes/active - to retrieve the active quiz (the quiz that is currently within its start and end time) 
 ### http://127.0.0.1:8000/quizzes/active/
 
-GET /quizzes/:id/result - to retrieve the result of a quiz by its ID 
+- GET /quizzes/:id/result - to retrieve the result of a quiz by its ID 
 ### http://127.0.0.1:8000/quizzes/14/result/
 
-GET /quizzes/all - to retrieve the all quizes
+- GET /quizzes/all - to retrieve the all quizes
 ### http://127.0.0.1:8000/quizzes/all
 
 Functionalities:
@@ -31,5 +31,5 @@ Create a Quiz: Users is able to create a quiz by sending a POST request to the A
 - startDate: the date and time when the quiz should start
 - endDate: the date and time when the quiz should end
 ### Get Active Quiz: Users is able to retrieve the active quiz (the quiz that is currently within its start and end time).
-###Get Quiz Result: After the 5 minute of end time of a quiz, users is able to retrieve the result of the quiz. The result is basically the right answer 
+### Get Quiz Result: After the 5 minute of end time of a quiz, users is able to retrieve the result of the quiz. The result is basically the right answer 
 
