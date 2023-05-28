@@ -21,7 +21,7 @@ API Endpoints:
 
 Functionalities:
 ## * status is changed using cron job every minute
-## * rate-limiting to prevent abuse of the API is done using throttling (2 or 3 erequest per minute)
+## * rate-limiting to prevent abuse of the API is done using throttling (2 or 3 requests per minute)
 ## * filesystem caching is done (every 5 minutes) to reduce the response time of frequently accessed data 
 
 Create a Quiz: Users is able to create a quiz by sending a POST request to the API with the following fields:
